@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Panduan Instalasi - Storybook React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah panduan instalasi untuk proyek \"Storybook React\". Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan Storybook React di lingkungan pengembangan Anda.
 
-## Available Scripts
+## Persyaratan Sistem
 
-In the project directory, you can run:
+Sebelum memulai, pastikan sistem Anda memenuhi persyaratan berikut:
 
-### `npm start`
+- Node.js (versi 12 atau yang lebih baru)
+- NPM (Node Package Manager)
+- Git (opsional)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Langkah 1: Mengunduh Proyek
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Anda dapat mengunduh proyek ini dengan menjalankan perintah berikut di terminal atau menggunakan Git:
 
-### `npm test`
+<pre><code>git clone https://github.com/nanangNSL/storybook-react.git</code></pre>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Langkah 2: Menginstal Dependensi
 
-### `npm run build`
+Setelah Anda berhasil mengunduh proyek, masuk ke direktori proyek dan jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<pre><code>cd storybook-react
+npm install</code></pre>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Langkah 3: Menjalankan Storybook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Setelah semua dependensi terinstal, jalankan perintah berikut untuk menjalankan Storybook:
 
-### `npm run eject`
+<pre><code>npm run storybook</code></pre>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Storybook akan dijalankan dan dapat diakses melalui browser di [http://localhost:6006](http://localhost:6006).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Catatan Tambahan
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Pastikan Anda memiliki Node.js dan NPM terinstal dengan benar pada sistem Anda.
+- Jika ada perubahan pada komponen atau cerita (story), Storybook akan secara otomatis menyegarkan tampilan di browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Selamat menggunakan Storybook React! Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi pengembang."
